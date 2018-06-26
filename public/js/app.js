@@ -142,7 +142,7 @@ var App = {
                     {name: 'justify3', items: ['Format']},
                     {
                         name: 'clipboard',
-                        items: ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Bold', 'Italic', 'Underline', 'Strike']
+                        items: ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord','Image', '-', 'Bold', 'Italic', 'Underline', 'Strike']
                     },
                     {
                         name: 'colors',
