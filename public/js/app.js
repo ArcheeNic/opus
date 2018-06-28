@@ -134,7 +134,7 @@ var App = {
                 height: $('#wiki-description').data('height'),
                 enableTabKeyTools: true,
                 removePlugins: 'elementspath',
-                codeSnippet_theme: 'github',
+                extraPlugins: 'base64image',
                 resize_enabled: false,
                 uiColor: '#eeeeee',
                 toolbar: [

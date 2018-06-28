@@ -11,7 +11,6 @@
 		<link rel="stylesheet" href="/css/font-awesome.css">
 		<link rel="stylesheet" href="/plugins/jcrop/Jcrop.min.css">
 		<link rel="stylesheet" href="/css/toastr.min.css">
-		<link href="/plugins/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css" rel="stylesheet">
 		<link href="/plugins/vakata-jstree/dist/themes/default/style.css" rel="stylesheet">
 		<link href="/plugins/atjs/jquery.atwho.min.css" rel="stylesheet">
 		<link href="/plugins/select2/select2.min.css" rel="stylesheet">
@@ -60,27 +59,10 @@
 		<script type="text/javascript" src="/js/moment.min.js"></script>
 		<script type="text/javascript" src="/js/color-hash.js"></script>
 		<script type="text/javascript" src="/js/laravel-delete-req.js"></script>
-		<script src="/plugins/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js"></script>
 		<script src="/plugins/vakata-jstree/dist/jstree.min.js"></script>
 		<script src="/plugins/atjs/jquery.caret.min.js"></script>
 		<script src="/plugins/atjs/jquery.atwho.min.js"></script>
 		<script src="/plugins/select2/select2.full.min.js"></script>
-        <script>
-            (function() {
-                hljs.initHighlightingOnLoad();
-            })();
-        </script>
-
-        {{--<script>--}}
-          {{--(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){--}}
-          {{--(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),--}}
-          {{--m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)--}}
-          {{--})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');--}}
-
-          {{--ga('create', 'UA-97158482-1', 'auto');--}}
-          {{--ga('send', 'pageview');--}}
-
-        {{--</script>--}}
 
 		@include('partials.toastr')
 	</body>
